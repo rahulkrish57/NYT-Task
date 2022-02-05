@@ -7,6 +7,7 @@ let row = document.querySelector("#btnGrp");
 let logo = newElem("img", "logo");
     logo.setAttribute("src", "nyt.png");
     logo.setAttribute("alt", "New York Times");
+    logo.setAttribute("onclick", "apiFunc('home')");
 
 let row1 = document.querySelector("#info");
 
