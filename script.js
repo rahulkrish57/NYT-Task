@@ -17,7 +17,7 @@ let section = ['home', 'world', 'politics', 'magazine', 'technology', 'science',
     var button = document.createElement("button");
     button.setAttribute("class","btn btn-outline-dark");
     button.setAttribute("id", "section[i]");
-   button.setAttribute("onclick", "apiFunc(\""+ section[i] + "\")"); // 
+   button.setAttribute("onclick", "apiFunc(\""+ section[i] + "\")"); // string passed as argument
     button.innerHTML = section[i].toUpperCase();
     col.append(button);
   }
